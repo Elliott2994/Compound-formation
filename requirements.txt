@@ -2,7 +2,7 @@ gensim==4.3.3
 mol2vec==0.2.2
 numpy>=1.26.0
 pandas==2.2.3
-rdkit==2024.3.6
+rdkit-pypi==2022.9.5
 streamlit==1.43.2
 torch==2.6.0
 tqdm==4.54.1
