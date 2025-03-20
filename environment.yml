@@ -2,7 +2,7 @@ name: C:\ProgramData\Miniconda3  # 你可以自定义环境名称
 channels:
   - conda-forge  # 通常使用conda-forge通道以确保兼容性
 dependencies:
-  - python=3.10  # 指定Python版本（根据你的需求选择合适的版本）
+  - python=3.11  # 指定Python版本（根据你的需求选择合适的版本）
   - gensim=4.3.3
   - mol2vec=0.2.2
   - numpy>=1.26.0
