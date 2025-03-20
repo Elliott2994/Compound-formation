@@ -1,13 +1,17 @@
-name: myenv
+name: C:\ProgramData\Miniconda3  # 你可以自定义环境名称
 channels:
-  - conda-forge
+  - conda-forge  # 通常使用conda-forge通道以确保兼容性
 dependencies:
-  - python=3.8  # 指定 Python 版本
-  - rdkit       # 安装 rdkit
-  - mol2vec     # 安装 mol2vec
-  - streamlit   # 安装 streamlit
-  - pandas      # 安装 pandas
-  - numpy       # 安装 numpy
-  - pip         # 确保 pip 可用
-  - pip:        # 使用 pip 安装的包
-    - gensim==4.3.1
+  - python=3.10  # 指定Python版本（根据你的需求选择合适的版本）
+  - gensim=4.3.3
+  - mol2vec=0.2.2
+  - numpy>=1.26.0
+  - pandas=2.2.3
+  - rdkit=2024.3.6
+  - streamlit=1.43.2
+  - pytorch=2.6.0  # 注意：Conda中使用pytorch而不是torch
+  - tqdm=4.54.1
+  - transformers=4.45.2
+  - pip  # 如果需要安装pip包
+  - pip:
+    - torch==2.6.0  # 如果某些包在Conda中没有，可以通过pip安装
