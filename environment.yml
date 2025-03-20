@@ -1,0 +1,13 @@
+name: myenv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8  # 指定 Python 版本
+  - rdkit       # 安装 rdkit
+  - mol2vec     # 安装 mol2vec
+  - streamlit   # 安装 streamlit
+  - pandas      # 安装 pandas
+  - numpy       # 安装 numpy
+  - pip         # 确保 pip 可用
+  - pip:        # 使用 pip 安装的包
+    - gensim==4.3.1
